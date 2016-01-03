@@ -1,9 +1,12 @@
 @charset "utf-8";
 /*全局样式*/
-body,div,ul,p,h1,h2,h3,h4,h5,h6,a,span,dl,dd,dt{
+body,div,ul,p,h1,h2,h3,h4,h5,h6,a,span,dl,dd,dt,input{
 	margin: 0;
 	padding: 0;
 	border: none;
+}
+body{
+	background-color: #eee;
 }
 
 ul {
@@ -106,7 +109,6 @@ h1{
 
 .center-panel{
 	width:100%;
-	background-color: #eee;
 	padding-top: 10px;
 	padding-bottom: 110px;
 }
@@ -204,4 +206,193 @@ h1{
 	background: url(../img/icon-github.png) no-repeat 0 0;
 	margin-left: 9px;
 	margin-top: 20px;
+}
+/*blog样式*/
+.blog-main{
+	width:980px;
+	margin:20px auto;
+}
+.sidebar{
+	float: right;
+	width: 260px;
+}
+.search{
+	width:260px;
+	height:80px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 60px;
+}
+.search-text{
+	width:125px;
+	height:40px;
+	background: url(../img/search.png) left center no-repeat;
+	border: #ddd 1px solid;
+	padding-left: 45px;
+	vertical-align:bottom
+}
+.button{
+	width:52px;
+	height:42px;
+	background-color: #ddd;
+	border: #ddd 1px solid;
+	color:#fff;
+	font-size: 20px;
+	margin-top: 2px;
+	vertical-align:bottom
+}
+.subnav{
+	margin-top: 10px;
+	background-color: #fff;
+}
+.subnav li{
+	height: 50px;
+	border-top: #ddd 1px solid;
+	border-bottom: #ddd 1px solid;
+	margin-bottom: -1px;
+}
+.subnav li a{
+	display: block;
+	height:50px;
+	width:240px;
+	padding-left:16px;
+	line-height:50px;
+	color: #000;
+	border-left: #DFC6E6 4px solid;
+}
+.subnav li a:hover{
+	border-left: #522A5C 4px solid;
+}
+.calendar{
+	margin-top: 10px;
+	background-color: #fff;
+	text-align: center;
+}
+.calendar caption{
+	margin-top: 10px;
+	color: #773B87;
+	font-weight: bold;
+}
+.calendar caption a{
+	margin:0 -120px;
+	color: #773B87;
+	font-weight: bold;
+}
+.calendar caption a:hover{
+	color: #fff;
+	background-color: #773B87;
+}
+.calendar table{
+	width: 230px;
+	margin: 0 auto;
+	padding-bottom: 25px;
+	font-size: 12px;
+	line-height: 1.7;
+}
+.calendar table td,th{
+	border-bottom: 1px solid #eee;
+	color: #999;
+	height:24px;
+}
+.calendar td:hover{
+	background-color: #773B87;
+	color: #fff;
+	cursor: pointer;
+}
+
+.tags{
+	margin-top: 10px;
+	background-color: #fff;
+	color: #773C88;
+	font-size: 14px;
+	padding:5px 15px 20px;
+}
+.tags h2{
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.tags strong{
+	font-size: 28px;
+}
+.tags em{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.article{
+	float:left;
+	width:710px;
+}
+.art-panel{
+	position: relative;
+	padding: 20px;
+	width:670px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.art-panel h2{
+	font-size: 16px;
+	margin-bottom: 8px;
+	color: #A660B7
+}
+.art-panel h3{
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #666;
+}
+.art-panel p{
+	font-size: 12px;
+	line-height: 1.8;
+	text-indent: 2em;
+}
+.author{
+	text-align: right;
+	color: #666;
+	margin-top: 30px;
+}
+.date-tag,.kind-tag{
+	position: absolute;
+	left: -50px;
+	width: 50px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	
+}
+.date-tag{
+	top: 20px;
+	background-color: #522A5C;
+}
+.kind-tag{
+	top: 60px;
+	background-color: #A660B7;
+}
+.pagenum{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 150px;
+}
+.pagenum li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.pagenum a{
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	padding:0 15px;
+	color: #000;
+	background-color: #fff;
+	font-size: 12px;
+}
+.pagenum a:hover{
+	color: #fff;
+	background-color: #A660B7;
+}
+.pagenum a:active{
+	color: #fff;
+	background-color: #A660B7;
 }
