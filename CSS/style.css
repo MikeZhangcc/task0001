@@ -1,0 +1,207 @@
+@charset "utf-8";
+/*全局样式*/
+body,div,ul,p,h1,h2,h3,h4,h5,h6,a,span,dl,dd,dt{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+}
+
+ .clearfix:after {
+ 	content:"."; 
+ 	display:block; 
+ 	height:0; 
+ 	visibility:hidden; 
+ 	clear:both; 
+ }
+
+.clearfix { 
+	*zoom:1; 
+}
+
+.header{
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background-color: #522A5C;
+}
+.wrap{
+	position: absolute;
+	width:980px;
+	left:50%;
+	bottom: 0;
+	margin-left: -490px;
+}
+h1{
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+}
+.nav{
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+}
+.nav li{
+	float: right;
+	margin-left: 28px;
+	font-size: 14px;
+}
+.github{
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	width:30px;
+	height:34px;
+	background: url(../img/icon-github.png) no-repeat 0 0;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 525px;
+}
+
+.banner img{
+	width:100%;
+	height:525px;
+}
+
+.banner-note{
+	float:right;
+	width: 340px;
+	height: 80px;
+	padding:10px 10px 30px 10px;
+	filter: progid:dximagetransform.microsoft.gradient(gradienttype=0, startcolorstr='#aaffffff', endcolorstr='#00ffffff');
+	-ms-filter: "progid:dximagetransform.microsoft.gradient (gradienttype=0, startcolorstr=#aaffffff, endcolorstr=#00ffffff)";/*ie8+*/
+	background:
+	-moz-linear-gradient(top, rgba(255,255,255,0.7),rgba(255,255,255,0.5) 25%, rgba(255, 255, 255, 0.0));
+	background:
+	-webkit-linear-gradient(top, rgba(255,255,255,0.7),rgba(255,255,255,0.5) 25%, rgba(255, 255, 255, 0.0));
+	background:
+	-ms-linear-gradient(top, rgba(255,255,255,0.7),rgba(255,255,255,0.5) 25%, rgba(255, 255, 255, 0.0));   
+	color: #fff;
+	font-family: "微软雅黑"
+}
+.banner-note h2{
+	font-size: 14px;
+	font-weight: normal;
+	text-align: right;
+}
+.banner-note p{
+	margin-top: 12px;
+	font-size: 12px;
+	text-indent: 2em;
+	line-height: 150%;
+}
+
+.center-panel{
+	width:100%;
+	background-color: #eee;
+	padding-top: 10px;
+	padding-bottom: 110px;
+}
+.wrap-panel{
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.show-panel{
+	float: left;
+	width: 300px;
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: -5000px;
+	padding-bottom: 5000px;
+}
+.space{
+	margin-right: 10px;
+}
+.note-panel{
+	padding: 15px 20px;
+	font-size: 12px;
+	line-height: 1.7;
+	text-indent: 2em;
+}
+.introduce{
+	width: 100%;
+	height: 520px;
+	text-align: center;
+}
+.intro-photo{
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+.introduce h2{
+	font-size: 20px;
+	font-family: "Century Gothic"
+}
+.introduce p{
+	width: 600px;
+	margin:30px auto ;
+	font-size: 14px;
+	line-height: 1.8;
+	text-indent: 2em;
+	text-align: left;
+}
+
+.footer{
+	background-color: #000;
+	font-size: 12px;
+}
+.footer-nav{
+	height:35px;
+	border-bottom: #333 1px solid;
+}
+.footer-nav ul{
+	width:208px;
+	height:35px;
+	line-height: 35px;
+	margin: 0 auto;
+	
+}
+.footer-nav li{
+	float: left;
+	margin:0 14px;
+}
+.footer-link{
+	width:980px;
+	margin:0 auto;
+}
+.footer-link dl{
+	float: left;
+	margin: 40px 50px;
+	width:96px;
+	text-align: center;
+	line-height: 1.7;
+}
+.footer-link dl dt{
+	color:#ccc;
+	margin-bottom: 40px;
+}
+.copyright{
+	margin: 0 auto;
+	height:70px;
+	width:48px;
+	color:#fff;
+}
+.copyright span{
+	text-align: ceter;
+}
+.footer-github{
+	display:block;
+	width:30px;
+	height:34px;
+	background: url(../img/icon-github.png) no-repeat 0 0;
+	margin-left: 9px;
+	margin-top: 20px;
+}
